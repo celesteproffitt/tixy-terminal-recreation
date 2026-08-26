@@ -31,7 +31,7 @@ def main():
 
                 # Define current (x,y) time, index, x, and y variables
                 t = time
-                i = y*8+x
+                i = y*screenSize[0]+x
                 x = x
                 y = y
 
