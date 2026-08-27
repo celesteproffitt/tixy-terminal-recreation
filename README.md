@@ -43,6 +43,12 @@ python tixy_terminal.py
 
 4. Enter a mathematical expression when prompted, or press Enter to use the default expression.
 
+## ⚠️ Flashing Lights Warning
+
+This program rapidly redraws animated patterns in the terminal. Setting `updateSpeed` too low may cause fast flashing or rapidly changing visuals that could affect people with photosensitive epilepsy or other visual sensitivities.
+
+Use a slower `updateSpeed` if necessary.
+
 ## Inspiration
 
 This project was inspired by [tixy.land](https://tixy.land/), a minimalist creative coding environment for generating mathematical animations.
